@@ -16,7 +16,7 @@
 
 import { VNodeData, JsxVNodeChildren, JsxVNodeChild, jsx, FunctionComponent } from "snabbdom";
 
-
+/*
 declare global {
   // eslint-disable-next-line no-redeclare
   namespace JSX {
@@ -26,6 +26,7 @@ declare global {
       }
   }
 }
+*/
 
 const modulesNS = ['hook', 'on', 'style', 'class', 'props', 'attrs', 'dataset'];
 const SVGNS = 'http://www.w3.org/2000/svg';
